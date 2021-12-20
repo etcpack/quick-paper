@@ -17,17 +17,11 @@ module.exports = {
         handler: ['@etcpack/babel-loader']
     },
     {
-        test: /\.css$/,
+        test: /\.(css|scss)$/,
         handler: ['./quickpaper-style-loader/index.js', '@etcpack/scss-loader']
     }, {
         test: /\.paper$/,
         handler: ['./quickpaper-loader/index.js']
-    }, {
-        test: /\.paper\?QuickPaper\&type\=script\&lang\=js&hash\=[0-9a-z]+$/,
-        handler: ['./quickpaper-loader/index.js']
-    }, {
-        test: /\.paper\?QuickPaper\&type\=style\&lang\=css\&hash\=[0-9a-z]+$/,
-        handler: ['./quickpaper-style-loader/index.js', '@etcpack/scss-loader', './quickpaper-loader/index.js']
     }],
     plug: [
         new QuickPaperLoaderPlugin()

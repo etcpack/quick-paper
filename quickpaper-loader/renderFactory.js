@@ -3,6 +3,8 @@ module.exports = function (templateObj, id) {
     if (templateObj == null) return 'createElement("div",{style:"color:red"},["Invalid Template"])';
 
     let xhtmlJson = templateObj;
+    xhtmlJson[0].name = 'div';
+    xhtmlJson[0].attrs['quickpaper'] = "";
 
     return `function(createElement){
 

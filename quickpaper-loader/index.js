@@ -4,7 +4,7 @@ const renderFactory = require('./renderFactory');
 
 module.exports = function (source) {
 
-    let shortFilePath = this.filepath.replace(process.cwd(), '')
+    let shortFilePath = this.filepath.replace(process.cwd(), '').replace(/\\/g,'/');
 
     const id = hash(shortFilePath);
 

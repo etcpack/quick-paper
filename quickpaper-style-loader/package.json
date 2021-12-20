@@ -15,6 +15,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@etcpack/style-loader": "^0.1.0"
+    "@etcpack/style-loader": "^0.1.1"
   }
 }

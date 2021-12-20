@@ -14,6 +14,6 @@
     "etcpack": "^0.3.0"
   },
   "dependencies": {
-    "quick-paper": "^1.2.0"
+    "quick-paper": "^1.2.2"
   }
 }

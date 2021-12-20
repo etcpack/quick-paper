@@ -13,5 +13,8 @@
     "paper",
     "quick"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@etcpack/style-loader": "^0.1.0"
+  }
 }

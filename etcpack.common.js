@@ -27,7 +27,7 @@ module.exports = {
         handler: ['./quickpaper-loader/index.js']
     }, {
         test: /\.paper\?QuickPaper\&type\=style\&lang\=css\&hash\=[0-9a-z]+$/,
-        handler: ['@etcpack/style-loader','./quickpaper-style-loader/index.js', '@etcpack/scss-loader', './quickpaper-loader/index.js']
+        handler: ['./quickpaper-style-loader/index.js', '@etcpack/scss-loader', './quickpaper-loader/index.js']
     }],
     plug: [
         new QuickPaperLoaderPlugin()

@@ -29,7 +29,7 @@ module.exports = {
     },
     {
         test: /\.css$/,
-        handler: ['@etcpack/style-loader','@etcpack/quickpaper-style-loader', '@etcpack/scss-loader']
+        handler: ['@etcpack/quickpaper-style-loader', '@etcpack/scss-loader']
     }, {
         test: /\.paper$/,
         handler: ['@etcpack/quickpaper-loader']

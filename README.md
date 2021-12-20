@@ -13,7 +13,7 @@
 ## How to use?
 
 ```
-npm install --save-dev @etcpack/quickpaper-loader @etcpack/quickpaper-loader-plug @etcpack/quickpaper-style-loader
+npm install --save-dev @etcpack/quickpaper-loader @etcpack/quickpaper-loader-plug @etcpack/quickpaper-style-loader @etcpack/style-loader
 ```
 
 然后在```etcpack.config.js```中添加配置，例如：
@@ -29,7 +29,7 @@ module.exports = {
     },
     {
         test: /\.css$/,
-        handler: ['@etcpack/quickpaper-style-loader', '@etcpack/scss-loader']
+        handler: ['@etcpack/style-loader','@etcpack/quickpaper-style-loader', '@etcpack/scss-loader']
     }, {
         test: /\.paper$/,
         handler: ['@etcpack/quickpaper-loader']

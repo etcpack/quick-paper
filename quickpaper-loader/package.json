@@ -1,0 +1,22 @@
+{
+  "name": "@etcpack/quickpaper-loader",
+  "version": "0.1.0",
+  "description": "📦 为Quick Paper提供的基于EtcPack的打包支持",
+  "main": "index.js",
+  "author": "你好2007",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etcpack/quick-paper.git"
+  },
+  "keywords": [
+    "etcpack",
+    "paper",
+    "quick"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@hai2007/algorithm": "^0.7.3",
+    "@hai2007/tool": "^1.0.0",
+    "hash-sum": "^2.0.0"
+  }
+}

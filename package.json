@@ -1,0 +1,18 @@
+{
+  "name": "quick-paper.test",
+  "scripts": {
+    "dev": "etcpack_dev --config etcpack.dev.js",
+    "build": "etcpack_pkg --config etcpack.prod.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@etcpack/babel-loader": "^0.1.0",
+    "@etcpack/scss-loader": "^0.1.0",
+    "@hai2007/nodejs": "^1.0.1",
+    "etcpack": "^0.2.0"
+  },
+  "dependencies": {
+    "quick-paper": "^1.2.0"
+  }
+}

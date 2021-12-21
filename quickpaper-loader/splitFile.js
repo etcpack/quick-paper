@@ -34,7 +34,7 @@ module.exports = function splitFile(source) {
 
   let resultData = {
     template: "",
-    script: "",
+    script: "export default {};",
     style: ""
   };
 
@@ -59,6 +59,7 @@ module.exports = function splitFile(source) {
 
     // 如果是script开头
     else if (reader.getNextN(8) == '<script>') {
+        resultData.script="";
 
       do {
         resultData.script += currentChar;

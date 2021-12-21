@@ -9,6 +9,9 @@
     };
 </script>
 <style>
+    [quickpaper]{
+        font-size: 18px;
+    }
     div {
         color: red;
     }

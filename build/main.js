@@ -138,7 +138,7 @@ __etcpack__scope_args__=window.__etcpack__getBundle('5');
 
     script.render=function(createElement){
 
-        return createElement('div',{"quickpaper":"","data-quickpaper-6e4e7abb":""},[createElement('div',{"data-quickpaper-6e4e7abb":""},["这是一个页面"])])
+        return createElement('div',{"class":"doit","quickpaper":"","data-quickpaper-6e4e7abb":""},[createElement('div',{"data-quickpaper-6e4e7abb":""},["这是一个页面"])])
 
     };
 
@@ -154,11 +154,9 @@ __etcpack__scope_args__=window.__etcpack__getBundle('5');
 window.__etcpack__bundleSrc__['4']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
-    
     __etcpack__scope_bundle__.default= {
 
     };
-
   
     return __etcpack__scope_bundle__;
 }
@@ -171,7 +169,7 @@ window.__etcpack__bundleSrc__['5']=function(){
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');
 var head = document.head || document.getElementsByTagName('head')[0];
-styleElement.innerHTML = "\r\n    div[data-quickpaper-6e4e7abb]{\r\n        color: red;\r\n    }\r\n";
+styleElement.innerHTML = "[quickpaper][data-quickpaper-6e4e7abb]{\n        font-size: 18px;\n    }\n    div[data-quickpaper-6e4e7abb]{\n        color: red;\n    }";
 styleElement.setAttribute('type', 'text/css');head.appendChild(styleElement);
   
     return __etcpack__scope_bundle__;
